@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,36 +13,35 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <div className="flex items-center gap-1">
-              <div className="h-6 w-1.5 bg-foreground rounded-sm" />
-              <div className="h-6 w-1.5 bg-foreground rounded-sm" />
-            </div>
-            <span className="text-lg font-semibold tracking-tight">TuWebPro</span>
+            <Image src="/logo-nisimweb.jpg" alt="Nisimweb" width={40} height={40} className="rounded-sm" />
+            <span className="inline-flex items-center text-lg font-bold tracking-tight">
+              NISIM<span className="bg-foreground text-background px-1.5 py-0.5 ml-0.5 text-sm">WEB</span>
+            </span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
             <a
               href="#diseños"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               Diseños
             </a>
             <a
               href="#precios"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               Precios
             </a>
             <a
               href="#faq"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               Preguntas
             </a>
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
-            <Button asChild>
+            <Button asChild className="transition-all duration-300 hover:scale-105">
               <a href="#contacto">Comenzar ahora</a>
             </Button>
           </div>
@@ -56,19 +56,19 @@ export function Header() {
             <nav className="flex flex-col gap-4">
               <a
                 href="#diseños"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 Diseños
               </a>
               <a
                 href="#precios"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 Precios
               </a>
               <a
                 href="#faq"
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 Preguntas
               </a>
