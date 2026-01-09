@@ -16,11 +16,11 @@ const features = [
 
 export function PricingSection() {
   return (
-    <section id="precios" className="py-24 relative overflow-hidden">
+    <section id="precios" className="py-16 relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-gradient-to-b from-primary/5 to-transparent rounded-full blur-3xl" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Un plan simple, sin sorpresas</h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
             Todo lo que necesitás para tener presencia online profesional.

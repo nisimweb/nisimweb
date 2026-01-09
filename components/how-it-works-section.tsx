@@ -23,12 +23,12 @@ export function HowItWorksSection() {
   ]
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-16 relative overflow-hidden">
       <div className="absolute top-1/2 left-0 w-72 h-72 bg-accent/20 rounded-full blur-3xl -translate-y-1/2" />
       <div className="absolute top-1/2 right-0 w-72 h-72 bg-secondary rounded-full blur-3xl -translate-y-1/2" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-20">
+        <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Cómo funciona</h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
             En 3 simples pasos tenés tu web profesional funcionando.

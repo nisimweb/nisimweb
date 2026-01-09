@@ -51,10 +51,10 @@ export function DesignsSection() {
   return (
     <section
       id="diseños"
-      className="py-24 bg-gradient-to-b from-card via-card to-secondary/30 border-y border-border/50"
+      className="py-16 bg-gradient-to-b from-card via-card to-secondary/30 border-y border-border/50"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Diseños disponibles</h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
             Todos nuestros diseños están optimizados para convertir visitantes en clientes.

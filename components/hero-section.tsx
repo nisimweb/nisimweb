@@ -3,7 +3,7 @@ import { ArrowRight, Check, Sparkles } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative py-24 md:py-36 overflow-hidden">
+    <section className="relative py-16 md:py-24 overflow-hidden">
       {/* Soft gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 via-background to-background" />
       <div className="absolute top-20 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />

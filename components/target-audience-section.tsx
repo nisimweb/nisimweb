@@ -22,9 +22,9 @@ export function TargetAudienceSection() {
   ]
 
   return (
-    <section className="py-24 bg-gradient-to-b from-card to-secondary/30 border-y border-border/50">
+    <section className="py-16 bg-gradient-to-b from-card to-secondary/30 border-y border-border/50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">¿Para quién es este servicio?</h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
             Diseñado para quienes quieren una web profesional sin lidiar con la parte técnica.

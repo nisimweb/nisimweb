@@ -39,9 +39,9 @@ const faqs = [
 
 export function FaqSection() {
   return (
-    <section id="faq" className="py-20">
+    <section id="faq" className="py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-12">
+        <div className="max-w-3xl mx-auto text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Preguntas frecuentes</h2>
           <p className="mt-4 text-muted-foreground text-lg">
             Respuestas a las dudas más comunes sobre nuestro servicio.

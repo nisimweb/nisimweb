@@ -37,7 +37,7 @@ export function ContactForm() {
 
   if (isSubmitted) {
     return (
-      <section id="contacto" className="py-20 bg-card border-t border-border">
+      <section id="contacto" className="py-16 bg-card border-t border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-md mx-auto text-center">
             <div className="h-16 w-16 rounded-full bg-success/10 flex items-center justify-center mx-auto mb-6">
@@ -54,7 +54,7 @@ export function ContactForm() {
   }
 
   return (
-    <section id="contacto" className="py-20 bg-card border-t border-border">
+    <section id="contacto" className="py-16 bg-card border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-md mx-auto">
           <div className="text-center mb-8">
